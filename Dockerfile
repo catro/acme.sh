@@ -11,6 +11,9 @@ RUN apk update -f \
   tzdata \
   oath-toolkit-oathtool \
   tar \
+  sshpass \
+  openssh \
+  rsync \
   && rm -rf /var/cache/apk/*
 
 ENV LE_CONFIG_HOME /acme.sh
